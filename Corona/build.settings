@@ -1,0 +1,15 @@
+settings =
+{
+	orientation = 
+	{
+		default = "landscape", 
+		supported = { "landscape" },
+	},
+	plugins =
+	{
+		["plugin.gamecircle"] =
+		{
+			publisherId = "COM_INNOVATIVELEISURE",
+		},
+	},
+}

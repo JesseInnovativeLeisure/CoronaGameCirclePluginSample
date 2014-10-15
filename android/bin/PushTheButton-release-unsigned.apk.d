@@ -1,0 +1,24 @@
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/bin/PushTheButton-release-unsigned.apk : \
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/bin/PushTheButton.ap_ \
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/bin/classes.dex \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/bin/classes.jar \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/network.jar \
+/Users/jessebusch/Desktop/Kindle_Fire/sdk/tools/support/annotations.jar \
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/libs/AmazonInsights-android-sdk-2.1.26.jar \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/JNLua.jar \
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/libs/login-with-amazon-sdk.jar \
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/libs/plugin.gamecircle.jar \
+/Users/jessebusch/plugins-hosted-amazon-gamecircle/sample/android/libs/gamecirclesdk.jar \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/Corona.jar \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libads.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libalmixer.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libanalytics.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libcorona.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libCoronaProvider.gameNetwork.corona.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libgameNetwork.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libjnlua5.1.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/liblicensing.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/liblua.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libmpg123.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libopenal.so \
+/Applications/CoronaEnterprise/Corona/android/lib/Corona/libs/armeabi-v7a/libplugins.so \

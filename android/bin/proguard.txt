@@ -1,0 +1,48 @@
+# view AndroidManifest.xml #generated:119
+-keep class com.amazon.ags.html5.overlay.GameCircleAlertUserInterface { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.amazon.ags.html5.overlay.GameCircleUserInterface { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.amazon.identity.auth.device.authorization.AuthorizationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.amazon.identity.auth.device.authorization.PackageIntentReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.ansca.corona.CameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.ansca.corona.CoronaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.ansca.corona.CoronaService { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.ansca.corona.SystemStartupBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.ansca.corona.VideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.ansca.corona.notifications.AlarmManagerBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.ansca.corona.notifications.GoogleCloudMessagingBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.ansca.corona.notifications.StatusBarBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.ansca.corona.purchasing.GoogleStoreBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.ansca.corona.purchasing.StoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.ansca.corona.storage.FileContentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.innovativeleisure.pushbutton.CoronaApplication { <init>(...); }
+
