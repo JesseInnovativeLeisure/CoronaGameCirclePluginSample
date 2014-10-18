@@ -61,6 +61,8 @@ function Update()
 		
 				state = "play"
 				waitDialog.isVisible = false
+				gamecircle.GetFriendIds(FriendIdsCallback);
+				gamecircle.SetSignedInListener(PlayerSignedInCallback);
 			end
 		end
 	end
@@ -240,8 +242,37 @@ function OpenInfo()
 	infoDialog.isVisible = true
 end
 
+function FriendIdsCallback(returnTable)
+	if returnTable.isError == true then
+		print("Friend Ids Callback had an error: " .. returnTable.errorMessage)
+	else
+		print("===================Friend Ids Callback has returned!")
+		for i = 1, returnTable.num do
+			print("Friend Ids Found + " .. returnTable[i])
+		end
+		gamecircle.GetBatchFriends(returnTable, BatchFriendsCallback)
+	end
+end
 
+function BatchFriendsCallback(returnTable)
+	if returnTable.isError == true then
+		print("Batch Friends Callback had an error: " .. returnTable.errorMessage)
+	else
+		print("===================Batch Friends Callback has returned!")
+		for i = 1, returnTable.num do
+			print("--Friend Found: " .. returnTable[i].alias)
+		end
+		gamecircle.GetBatchFriends(returnTable, BatchFriendsCallback)
+	end
+end
 
+function PlayerSignedInCallback(signedIn)
+	if signedIn then
+		print("Player signed In!")
+	else
+		print("Player signed out!")
+	end
+end
 
 ----------
 -- UI Operation Functions
