@@ -262,7 +262,6 @@ function BatchFriendsCallback(returnTable)
 		for i = 1, returnTable.num do
 			print("--Friend Found: " .. returnTable[i].alias)
 		end
-		gamecircle.GetBatchFriends(returnTable, BatchFriendsCallback)
 	end
 end
 
@@ -288,12 +287,14 @@ function UpdateUI()
 end
 
 function UpdateInfo()
-	infoDialog.buttonPressRedDisplay.text = gamecircle.Whispersync.GetAccumulatedNumber("redButtonPresses", "INT")
-	infoDialog.buttonPressGreenDisplay.text = gamecircle.Whispersync.GetAccumulatedNumber("greenButtonPresses", "INT")
-	infoDialog.buttonPressBlueDisplay.text = gamecircle.Whispersync.GetAccumulatedNumber("blueButtonPresses", "INT")
-	infoDialog.highScoreDisplay.text = gamecircle.Whispersync.GetHighestNumber("localHighScore", "INT").value .. ""
-	infoDialog.latestScoreDisplay.text = gamecircle.Whispersync.GetLatestNumber("lastScore", "INT").value .. ""
-	infoDialog.lowestScoreDisplay.text = gamecircle.Whispersync.GetLowestNumber("lowestScore", "INT").value .. ""
+	if gamecircle.IsReady() then
+		infoDialog.buttonPressRedDisplay.text = gamecircle.Whispersync.GetAccumulatedNumber("redButtonPresses", "INT")
+		infoDialog.buttonPressGreenDisplay.text = gamecircle.Whispersync.GetAccumulatedNumber("greenButtonPresses", "INT")
+		infoDialog.buttonPressBlueDisplay.text = gamecircle.Whispersync.GetAccumulatedNumber("blueButtonPresses", "INT")
+		infoDialog.highScoreDisplay.text = gamecircle.Whispersync.GetHighestNumber("localHighScore", "INT").value .. ""
+		infoDialog.latestScoreDisplay.text = gamecircle.Whispersync.GetLatestNumber("lastScore", "INT").value .. ""
+		infoDialog.lowestScoreDisplay.text = gamecircle.Whispersync.GetLowestNumber("lowestScore", "INT").value .. ""
+	end
 end
 
 function UpdateScoreText(newScore)
